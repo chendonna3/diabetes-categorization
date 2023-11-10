@@ -9,7 +9,7 @@ https://www.kaggle.com/datasets/alexteboul/diabetes-health-indicators-dataset/da
 
 
 ### EDA results
-correlation between diabetes and the following characteristics were determined by a spearman correlation >0.2:
+Correlation between diabetes and the following characteristics were determined by a spearman correlation >0.2:
  - HighBP
  - PhysHlth
  - DiffWalk
@@ -18,3 +18,6 @@ correlation between diabetes and the following characteristics were determined b
  - HighChol
  - HeartDiseaseorAttack
  - Age
+
+There are 35346 diabetes, 4631 pre-diabetes patients and 213703 patients without diabetes
+That's 13.93% diabetes and 1.83% pre-diabetes
