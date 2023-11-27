@@ -8,7 +8,7 @@ https://www.kaggle.com/datasets/alexteboul/diabetes-health-indicators-dataset/da
 
 
 
-### EDA results
+### Overall EDA results
 Correlation between diabetes and the following characteristics were determined by a spearman correlation >0.2:
  - HighBP
  - PhysHlth
