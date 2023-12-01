@@ -4,16 +4,18 @@ Classifying diabetes project
 ### [Erdos Institute](https://www.erdosinstitute.org/) Data Science Boot Camp - Fall 2023
 
 #### Team Members
-- Donna Chen
-- Gary Hu
-- Michelle Lobb
+- [Donna Chen](https://www.linkedin.com/in/donna-chen-1b245a19b/)
+- [Gary Hu]()
+- [Michelle Lobb](https://www.linkedin.com/in/michelle-lobb-94a038222/)
 - [Shayne Plourde](https://www.linkedin.com/in/shayne-plourde/)
+
+#### Links
+[Tableu Dashboard](https://public.tableau.com/views/ErdosBiomedicalCategorization/Dashboard2?:language=en-US&:display_count=n&:origin=viz_share_link)
 
 ## Project Overview
 Diabetes is a major issue in the world, impacting 8.5% of adults and killing 1.5 million people in 2019 according to the World Health Organization. Diabetes is a chronic disease that affects how the body regulates blood glucose levels. Over time, having raised blood glucose levels may lead to serious damage to the nerves and blood vessels, leading to further complications. 
 
 The goal of this project is to better understand the relationship between lifestyle factors and diabetes and subsequently predict whether an individual has diabetes or not, based on a survey questionnaire.
-
 
 
 ### Dataset used:
@@ -24,8 +26,20 @@ https://www.kaggle.com/datasets/alexteboul/diabetes-health-indicators-dataset/da
 
 
 
-###  EDA results
+###  Exploratory Data Analysis
 
+Three data sets were included
+- A full data set with the following number of patients: 
+    - 218,334 non-diabetic 
+    - 35,346 diabetic
+- A large data set with groups for only diabetic and non-diabetic
+    - 213,703 non-diabetic
+    - 4,631 pre-diabetic
+    - 35,346 diabetic
+- A balanced data set
+    - 35,346 non-diabetic
+    - 35,346 diabetic
+![EDA of the correlation of factors to diabetes](image.png)
 The correlation between diabetes and the following characteristics was determined by a Spearman correlation >0.2:
 
  - HighBP
