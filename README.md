@@ -42,7 +42,7 @@ Three data sets were included:
 
 We chose to use the imbalanced data as it has the most data.
 
-![EDA of the correlation of factors to diabetes](image.png)
+![EDA of the correlation of factors to diabetes](images/image.png)
 
 The correlation between diabetes and the following characteristics was determined by a Spearman correlation >0.2:
 
@@ -62,7 +62,7 @@ The non-boosting methods for classification yielded accuracy scores capped at ar
 
 ### Relative importance of features in random forest matches correlations
 
-![Feature Importance](image-1.png)
+![Feature Importance](images/image-1.png)
 
 
 ## Conclusions
