@@ -28,7 +28,7 @@ https://www.kaggle.com/datasets/alexteboul/diabetes-health-indicators-dataset/da
 
 ###  Exploratory Data Analysis
 
-Three data sets were included
+Three data sets were included:
 - A full data set with the following number of patients: 
     - 218,334 non-diabetic 
     - 35,346 diabetic
@@ -39,7 +39,11 @@ Three data sets were included
 - A balanced data set
     - 35,346 non-diabetic
     - 35,346 diabetic
-![EDA of the correlation of factors to diabetes](image.png)
+
+We chose to use the balanced data set.
+
+![EDA of the correlation of factors to diabetes](5050.png)
+
 The correlation between diabetes and the following characteristics was determined by a Spearman correlation >0.2:
 
  - HighBP
@@ -51,8 +55,7 @@ The correlation between diabetes and the following characteristics was determine
  - HeartDiseaseorAttack
  - Age
 
-There are 35346 diabetes, 4631 pre-diabetes patients, and 213703 patients without diabetes.
-That's 13.93% diabetes and 1.83% pre-diabetes
+
 
 ## Results
 The non-boosting methods for classification yielded accuracy scores capped at around 0.75, with the random forest model performing the best with 0.7562 accuracy, 0.7563 ROC AUC score, and 0.7961 recall on the balanced binary data set. The random forest model also provided relative importance scores for the features; the features with the highest importance scores were general health (0.2153), high blood pressure (0.2038), BMI (0.1279), age (0.1014), and high cholesterol (0.0937).
